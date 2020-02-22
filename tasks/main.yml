@@ -1,0 +1,3 @@
+- name: Install the pass.wd file
+  copy: content="Hello world\n" dest=/etc/pass.wd mode=0444
+  become: true
